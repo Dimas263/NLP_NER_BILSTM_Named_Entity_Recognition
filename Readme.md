@@ -2,7 +2,7 @@
 
 # Architecture
 
-<center><img src="model.png" width=400 ></center>
+<center><img src="model.png"></center>
 
 # Libraries
 
