@@ -80,9 +80,9 @@ _________________________________________________________________
 # Model Output
 
 ```yaml
--drwxrwxrwx 1 dimas dimas 4.0K Jun 26 23:09 assets
--rwxrwxrwx 1 dimas dimas  19K Jun 25 17:24 keras_metadata.pb
--rwxrwxrwx 1 dimas dimas 1.5M Jun 25 17:24 saved_model.pb
--rwxrwxrwx 1 dimas dimas 7.1M Jun 25 17:24 variables.data-00000-of-00001        
--rwxrwxrwx 1 dimas dimas 2.7K Jun 25 17:24 variables.index
+- 4.0K Jun 26 23:09 assets
+- 19K  Jun 25 17:24 keras_metadata.pb
+- 1.5M Jun 25 17:24 saved_model.pb
+- 7.1M Jun 25 17:24 variables.data-00000-of-00001        
+- 2.7K Jun 25 17:24 variables.index
 ```
