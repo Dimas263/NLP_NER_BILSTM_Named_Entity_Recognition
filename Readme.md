@@ -7,9 +7,11 @@
 ## <img src="https://img.icons8.com/external-fauzidea-flat-fauzidea/64/undefined/external-man-avatar-avatar-fauzidea-flat-fauzidea.png"/> **`Dimas Dwi Putra`**
 
 ## Architecture
+<p align="center">
 <img src="NER-BILSTM%20Architecture.png" WIDTH="2343">
+</p>
 
-## Dataset
+## Dataset<br>[View Dataset .csv](input/)
 | Sentence #  | Word        | POS | Tag       |
 | ----------- | ----------- | --- | --------- |
 | Sentence: 0 | studies     | NNS | O         |
@@ -25,7 +27,7 @@
 | Sentence: 0 | arrhythmias | NNS | B-disease |
 ...
 
-## Eval
+## Eval<br>[View Eval Report .xlsx](Model%20Report.xlsx)
 | Entities     | precision | recall   | f1-score | support | excecution time | processor | ram  | model | batch size | epochs |
 | ------------ | --------- | -------- | -------- | ------- | --------------- | --------- | ---- | ----- | ---------- | ------ |
 | PAD          | 0,976923  | 0,976923 | 0,976923 | 130     | 0.06.21         | CPU       | High | 1     | 16         | 20     |
@@ -66,7 +68,7 @@ risks          : O     O
 hepatitis      : disease disease
 liver          : O     disease
 ```
-## Output
+## Output<br>[View Model Output](output/)
 ### Save output model as [.hdf5](output/)
 
 # **Other Content**
@@ -84,7 +86,7 @@ liver          : O     disease
 #### [6. NER BERT BiLSTM CRF Named Entity Recognition](https://github.com/Dimas263/NLP_NER_BERT_BILSTM_CRF_Named_Entity_Recognition)
 
 
-### **Relation Extraction (NER)**
+### **Relation Extraction (RE)**
 #### [1. RE Dataset Biomedical Plant-Disease Corpus](https://github.com/Dimas263/NLP_RE_Dataset_Biomedical_Plant-Disease_Corpus)
 #### [2. RE BERT Relation Extraction Biomedical](https://github.com/Dimas263/NLP_RE_BERT_Relation_Extraction_Biomedical)
 #### [3. RE BiLSTM CRF Relation Extraction Biomedical](https://github.com/Dimas263/NLP_RE_BILSTM_CRF_Relation_Extraction_Biomedical)
